@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms!</title>
+		<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+	<div class="container">
+
+		<form id="employeeForm">
+			<div>
+				<label for="empFirstName">Employee First Name: </label>
+				<input type="text" id="empFirstName" name="empFirstName" />
+			</div>
+			<div>
+				<label for="empLastName">Employee Last Name: </label>
+				<input type="text" id="empLastName" name="empLastName" />
+			</div>
+			<div>
+				<label for="empIdNumber">Employee ID Number: </label>
+				<input type="text" id="empIdNumber" name="empIdNumber" />
+			</div>
+			<div>
+				<label for="empJobTitle">Employee Job Title: </label>
+				<input type="text" id="empJobTitle" name="empJobTitle" />
+			</div>
+			<div>
+				<label for="empYearlySalary">Employee Yearly Salary: </label>
+				<input type="text" id="empYearlySalary" name="empYearlySalary" />
+			</div>
+			<div>
+				<input type="submit" value="Submit Employee" />
+			</div>
+		</form>
+		<div><!-- Placeholder for our salary total -->
+		<p>Monthly cost of salaries:</p>
+		<p id="salary">$0.00</p>
+		</div>
+	</div>
+
+	<div id="container">
+		<button>Delete</button>
+		
+	</div>
+
+	</body>
+</html>

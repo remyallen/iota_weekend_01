@@ -1,0 +1,25 @@
+.container {
+	padding: 20px;
+	border: 1px solid gray;
+}
+#employeeForm {
+	padding: 10px;
+}
+
+div {
+	padding: 10px;
+	float: left;
+	clear: both;
+}
+ 
+/*
+label {
+	float: left;
+}
+input {
+	float: right;
+}
+
+* {
+	border: 1px dashed red;
+}
